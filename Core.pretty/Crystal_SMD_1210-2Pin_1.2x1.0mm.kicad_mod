@@ -1,0 +1,220 @@
+(footprint "Crystal_SMD_1210-2Pin_1.2x1.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(layer "F.Fab")
+		(uuid "4129d43c-7bac-4f96-8fdd-f4cb6b097de4")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0.9 0)
+		(layer "F.Fab")
+		(uuid "530c588e-c90f-42f5-8d7d-d0f854f279bd")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "338437b8-88ef-486a-88dc-07accb5881d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Two pin crystal, small symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02764428-b24f-4675-a5af-fc8c5ba65be0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PartId" "ECS-.327-9-1210-TR "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2861f634-8ad4-4906-b6a9-a94395465e05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -0.7)
+		(end -0.8 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b4733fa-c5f7-4bd0-a522-24d612defdfd")
+	)
+	(fp_line
+		(start -0.8 -0.7)
+		(end 0 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d715b4a2-8bf3-4ce9-a95f-4fc634e90b13")
+	)
+	(fp_line
+		(start -0.8 0.7)
+		(end 0 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daf00455-79df-4e8f-9d2c-b39dd239796f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.046668 0)
+		(stroke
+			(width 0.066667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "1c8b90bb-235d-4964-812f-4f982a0e0127")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.046668 0)
+		(stroke
+			(width 0.066667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "a5ab7189-41e1-4b85-b434-34e5391ae8c6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.046668 0)
+		(stroke
+			(width 0.093333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "afa25eee-39a2-49f6-ba3a-1345ac239f79")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.046668 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "2dd8a435-60a9-4549-a9e5-33c41dd01dd7")
+	)
+	(fp_line
+		(start -0.900001 -0.8)
+		(end -0.900001 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62e3b269-f00a-4d6f-9086-4c3e1322d638")
+	)
+	(fp_line
+		(start -0.900001 0.8)
+		(end 0.900001 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "786abc5f-7880-41e0-9994-ea3e1be08132")
+	)
+	(fp_line
+		(start 0.900001 -0.8)
+		(end -0.900001 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77bc4dea-1e4d-4ae4-8a6f-cfc49440c910")
+	)
+	(fp_line
+		(start 0.900001 0.8)
+		(end 0.900001 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "764972f4-ea55-4c17-bda3-46a7d01aa7cd")
+	)
+	(fp_poly
+		(pts
+			(xy -0.6 -0.499999) (xy 0.6 -0.499999) (xy 0.6 0.499999) (xy -0.6 0.499999)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "440120e0-25b9-47f2-b331-f76cc89546a9")
+	)
+	(pad "1" smd rect
+		(at -0.412501 0)
+		(size 0.575 1.114)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6871fd10-1903-46c7-866f-5bc79a010a4b")
+	)
+	(pad "2" smd rect
+		(at 0.412501 0)
+		(size 0.575 1.114)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26ce0fb9-f182-497d-b344-950a29883ae1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin_2.0x1.2mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,255 @@
+(footprint "Diodes_DFN1006-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN package size 1006 3 pins")
+	(tags "DFN package size 1006 3 pins")
+	(property "Reference" "REF**"
+		(at 0 -0.6 0)
+		(layer "F.Fab")
+		(uuid "890ac070-dfdf-4307-80b7-59d67b491fe9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0.6 0)
+		(layer "F.Fab")
+		(uuid "3e2cc790-0c13-4d27-92bb-10a67adf0eb1")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e5b3ab5-6a12-493b-8fc3-7f33291f0747")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7313518d-ff9a-488c-98c3-37a11e6248a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C7527987 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f108eb99-e645-459a-8b5d-fd21e7c8ba40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -0.610001)
+		(end 0.5 -0.610001)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ab62bd8-0bbb-41d5-bff4-3d60343d2f0a")
+	)
+	(fp_line
+		(start -0.5 0.610001)
+		(end 0.5 0.610001)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7aba181e-2cd3-415a-8b44-610042421abd")
+	)
+	(fp_poly
+		(pts
+			(xy -0.74 -0.54) (xy -1.02 -0.54) (xy -0.74 -0.820001) (xy -0.74 -0.54)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "577a4f0f-f76d-47ee-b0bc-157a0b113567")
+	)
+	(fp_line
+		(start -0.799999 -0.6)
+		(end 0.799999 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c06eb3c-f10c-4a7a-9e34-655e97f514d0")
+	)
+	(fp_line
+		(start -0.799999 0.6)
+		(end -0.799999 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0eb0a5e5-f383-4c47-a165-c5e8c59869fd")
+	)
+	(fp_line
+		(start 0.799999 -0.6)
+		(end 0.799999 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a016b456-edc1-4e8f-89a0-aab553b9a9d5")
+	)
+	(fp_line
+		(start 0.799999 0.6)
+		(end -0.799999 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0493b907-b33e-4b26-8d24-995835bfbbad")
+	)
+	(fp_line
+		(start -0.499999 0.3)
+		(end -0.499999 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4062fb82-83c2-4007-b9f5-9a3d72288887")
+	)
+	(fp_line
+		(start -0.349999 -0.3)
+		(end -0.499999 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa15c239-4709-44a8-93fe-e9cd201cd97c")
+	)
+	(fp_line
+		(start -0.349999 -0.3)
+		(end 0.499999 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91bf32bf-a261-4848-8de3-ef313edc5531")
+	)
+	(fp_line
+		(start 0.499999 -0.3)
+		(end 0.499999 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ea0eb9e-606c-4c51-882e-6280faf71acc")
+	)
+	(fp_line
+		(start 0.499999 0.3)
+		(end -0.499999 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22b27f1c-6dd0-4347-82c0-e96b83cbf6f1")
+	)
+	(pad "1" smd rect
+		(at -0.349999 -0.225 270)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "9a93c380-51bd-4223-a5ac-e755b86af7a2")
+	)
+	(pad "2" smd rect
+		(at -0.349999 0.225 270)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "d3b697b1-eb33-498f-afe2-04c11b3b01b6")
+	)
+	(pad "3" smd rect
+		(at 0.349999 0 270)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "f0035353-2917-4299-9fe3-77de7791a912")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_DFN1006-3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
